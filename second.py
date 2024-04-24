@@ -1,8 +1,5 @@
-a = 2
-b = "SArmad"
-c = True
-d = None
-print(type(a))
-print(type(b))
-print(type(c))
-print(type(d))
+num = int(input("Enter Any Integer: "))
+if num%2==0:
+    print("You Have Entered An Even Integer")
+else:
+    print("You Have Entered An Odd Number")
